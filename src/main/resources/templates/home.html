@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paras Budhiraja - Personal Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<!-- Loading Animation -->
+<div th:replace="~{fragments/loader :: loader}"></div>
+
+<!-- Background Shapes -->
+<div class="floating-shape shape-1"></div>
+<div class="floating-shape shape-2"></div>
+<div class="floating-shape shape-3"></div>
+
+<!-- Header -->
+<div th:replace="~{fragments/header :: site-header}"></div>
+
+<!-- Hero Section -->
+<div th:replace="~{fragments/hero :: hero-section}"></div>
+
+<!-- About Section -->
+<div th:replace="~{fragments/about :: about-section}"></div>
+
+<!-- Projects Section -->
+<div th:replace="~{fragments/projects :: projects-section}"></div>
+
+<!-- Experience Section -->
+<div th:replace="~{fragments/experience :: experience-section}"></div>
+
+<!-- Achievements Section -->
+<div th:replace="~{fragments/achievements :: achievements-section}"></div>
+
+<!-- Contact Section -->
+<div th:replace="~{fragments/contact :: contact-section}"></div>
+
+<!-- Footer -->
+<div th:replace="~{fragments/footer :: footer-section}"></div>
+<script src="/js/script.js"></script>
+</body>
+</html>

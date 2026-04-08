@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: portfolio
+    env: docker
+    plan: free
+    region: oregon
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: PORT
+        value: 9090
+

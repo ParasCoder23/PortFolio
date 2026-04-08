@@ -1,0 +1,36 @@
+# Git
+.env.local
+.env
+npm-debug.log
+node_modules
+# Other
+
+Thumbs.db
+ehthumbs.db
+.Trashes
+.Spotlight-V100
+._*
+.DS_Store?
+.DS_Store
+# OS
+
+*.war
+*.jar
+*.class
+dist
+build
+target
+# Build
+
+*~
+*.swo
+*.swp
+*.iml
+.vscode
+.idea
+# IDE
+
+.gitattributes
+.gitignore
+.git
+
